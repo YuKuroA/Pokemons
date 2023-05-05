@@ -1,0 +1,78 @@
+.creation-form {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    color: var(--white);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation-form form {
+    display: block;
+    position: relative;
+    width: 450px;
+    background-color: var(--silver);
+    z-index: 1001;
+    border-radius: 20px;
+}
+
+.creation-form form .close {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation-form form .fields {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.creation-form .fields .form-field {
+    height: 40px;
+    margin-top: 40px;
+}
+
+.creation-form .fields .form-field input {
+    display: block;
+    outline: none;
+    height: 100%;
+    border: none;
+}
+
+.creation-form .controls {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation-form .controls button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--antiquewhite);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.creation-form .layer {
+    position: fixed;
+    background-color: var(--light-silver);
+    opacity: 0.5;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}

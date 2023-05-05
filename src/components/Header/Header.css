@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    --silver: silver;
+    --light-silver: rgb(221, 219, 219);
+    --cornflowerblue: cornflowerblue;
+    --white: white;
+    --antiquewhite: antiquewhite;
+    --grey: grey;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: var(--antiquewhite);
+    border-bottom: solid 1px var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    width: 150px;
+    height: 40px;
+    background-color: var(--light-silver);
+    border: solid 1px var(--grey);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
